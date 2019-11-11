@@ -11,15 +11,6 @@ body {
     background-color: #5CDB95;
 }
 
-#webDevLogo {
-    position: absolute;
-    height: 3vw;
-    width: auto;
-    top: 0;
-    margin-top: 1vw;
-    left: 2vw;
-}
-
 #nav {
     position: relative;
     top: 1vw;
@@ -31,12 +22,32 @@ body {
     align-items: center;
 }
 
+#logoContainer {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    top: 0;
+    margin-top: 1vw;
+    left: 2vw;
+}
+
+#logo {
+    position: relative;
+    height: 3vw;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition: transform 1s;
+}
+
+#logoContainer:hover #logo {
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
 .link {
     font-size: 2vw;
     text-align: center;
     line-height: 3vw;
     height: 3vw;
-    width: 12vw;
+    width: 10vw;
     font-family: 'Inconsolata', monospace;
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s;
@@ -47,7 +58,7 @@ body {
 }
 
 .link:hover {
-    background-color: rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 h1 {
