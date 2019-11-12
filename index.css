@@ -13,7 +13,7 @@ body {
 
 #nav {
     position: relative;
-    top: 1vw;
+    margin-top: 2vw;
     height: auto;
     width: 100%;
     display: flex;
@@ -27,7 +27,7 @@ body {
     height: 3vw;
     width: 3vw;
     top: 0;
-    margin-top: 1vw;
+    margin-top: 2vw;
     left: 2vw;
 }
 
