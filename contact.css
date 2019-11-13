@@ -54,7 +54,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.link:nth-child(2) {
+.link:nth-child(3) {
     margin-right: 2vw;
 }
 
