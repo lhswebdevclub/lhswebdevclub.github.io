@@ -7,9 +7,11 @@
     color: #EDF5E1;
     max-width: 100%;
 }
+
 body {
     background-color: #5CDB95;
 }
+
 #nav {
     position: relative;
     margin-top: 2vw;
@@ -20,6 +22,7 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
+
 #logoContainer {
     position: absolute;
     height: 3vw;
@@ -28,15 +31,18 @@ body {
     margin-top: 2vw;
     left: 2vw;
 }
+
 #logo {
     position: relative;
     height: 3vw;
     transform: rotate3d(1, 1, 1, 0deg);
     transition: transform 1s;
 }
+
 #logoContainer:hover #logo {
     transform: rotate3d(1, 1, 1, 360deg);
 }
+
 .link {
     font-size: 2vw;
     text-align: center;
@@ -48,12 +54,15 @@ body {
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s;
 }
+
 .link:nth-child(3) {
     margin-right: 2vw;
 }
+
 .link:hover {
     background-color: rgba(255, 255, 255, 0.411);
 }
+
 .container {
     position: relative;
     /* top: -3vw; */
@@ -61,13 +70,15 @@ body {
     width: 100vw;
     height: calc(100vh - 4vw);
 }
-#btnHolder{
+
+#btnHolder {
     /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     margin-left: 20vw;
     width: 60vw;
 }
+
 #btnNav {
     /* border: 2px solid black; */
     display: flex;
@@ -76,6 +87,7 @@ body {
     width: inherit;
     height: auto;
 }
+
 #btnDes {
     /* border: 2px solid white; */
     margin-top: 1vw;
@@ -83,6 +95,7 @@ body {
     height: 5vh;
     display: flex;
 }
+
 .desc {
     /* border: 2px solid black; */
     font-family: 'Inconsolata', monospace;
@@ -92,43 +105,56 @@ body {
     margin: 0 3vw 0 3vw;
     text-align: center;
 }
+
 #btnNav a:nth-child(1) {
     background-color: #F2626B;
 }
+
 #btnNav a:nth-child(1):hover {
     box-shadow: inset 0 0 6vw 6vw rgba(255, 255, 255, 0.2);
 }
+
 #btnNav a:nth-child(2) {
     background-color: #FEBA4F;
 }
+
 #btnNav a:nth-child(2):hover {
     box-shadow: inset 0 0 6vw 6vw rgba(255, 255, 255, 0.2);
 }
+
 #btnNav a:nth-child(3) {
     background-color: #89E077;
 }
+
 #btnNav a:nth-child(3):hover {
     box-shadow: inset 0 0 6vw 6vw rgba(255, 255, 255, 0.2);
 }
+
 #btnNav a:nth-child(4) {
     background-color: #83C3FF;
 }
+
 #btnNav a:nth-child(4):hover {
     box-shadow: inset 0 0 6vw 6vw rgba(255, 255, 255, 0.2);
 }
+
 #btnNav a:nth-child(5) {
     background-color: #C381FD;
 }
+
 #btnNav a:nth-child(5):hover {
     box-shadow: inset 0 0 6vw 6vw rgba(255, 255, 255, 0.2);
 }
+
 h1 {
-    margin-top: 6vw; /*added 3vw for the nav bar and more for pushing the title down*/
+    margin-top: 6vw;
+    /*added 3vw for the nav bar and more for pushing the title down*/
     color: #EDF5E1;
     text-align: center;
     font-size: 9vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
 .btn {
     border: .2vw solid black;
     width: 6vw;
@@ -140,6 +166,7 @@ h1 {
     font-size: 3vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
 #Topics {
     /* border: 2px solid black; */
     position: relative;
@@ -147,6 +174,7 @@ h1 {
     width: 100vw;
     height: auto;
 }
+
 #Topic_1 {
     /* border: 2px solid blue; */
     background-color: #F2626B;
@@ -154,6 +182,7 @@ h1 {
     width: 100vw;
     height: 100vh;
 }
+
 #Topic_2 {
     /* border: 2px solid blue; */
     background-color: #FEBA4F;
@@ -161,6 +190,7 @@ h1 {
     width: 100vw;
     height: 100vh;
 }
+
 #Topic_3 {
     /* border: 2px solid blue; */
     background-color: #89E077;
@@ -168,6 +198,7 @@ h1 {
     width: 100vw;
     height: 100vh;
 }
+
 #Topic_4 {
     /* border: 2px solid blue; */
     background-color: #83C3FF;
@@ -175,6 +206,7 @@ h1 {
     width: 100vw;
     height: 100vh;
 }
+
 #Topic_5 {
     /* border: 2px solid blue; */
     background-color: #C381FD;
