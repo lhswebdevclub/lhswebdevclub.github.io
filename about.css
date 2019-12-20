@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans+JP:500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #EDF5E1;
+}
+
+body {
+    background-color: #5CDB95;
+}
+
+#nav {
+    position: relative;
+    margin-top: 2vw;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logoContainer {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    top: 0;
+    margin-top: 2vw;
+    left: 2vw;
+}
+
+#logo {
+    position: relative;
+    height: 3vw;
+    transform: rotate3d(1, 1, 1, 0deg);
+    transition: transform 1s;
+}
+
+#logoContainer:hover #logo {
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
+.link {
+    font-size: 2vw;
+    text-align: center;
+    line-height: 3vw;
+    height: 3vw;
+    width: 10vw;
+    color: #05386B;
+    font-family: 'Inconsolata', monospace;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s;
+}
+
+.link:nth-child(3) {
+    margin-right: 2vw;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+h1 {
+    margin-top: 2vw;
+    color: #EDF5E1;
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+:root {
+    --left-offset: 45vw;
+}
+p {
+    position: absolute;
+    left: var(--left-offset);
+    color: #EDF5E1;
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+    width: 40vw;
+}
+
+svg {
+    position: relative;
+    left: calc(var(--left-offset) - 25vw);
+    margin-top: 1vw;
+    height: auto;
+    width: 20vw;
+    /* border: 2px solid white; */
+}
