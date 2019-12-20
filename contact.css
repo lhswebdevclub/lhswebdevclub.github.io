@@ -147,3 +147,11 @@ h1 {
     width: auto;
     height: 30vw;
 }
+
+p a {
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: rgb(191, 255, 223);
+}

@@ -92,3 +92,7 @@ svg {
     width: 20vw;
     /* border: 2px solid white; */
 }
+
+p a {
+    text-decoration: underline;
+}
