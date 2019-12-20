@@ -82,6 +82,7 @@ h1 {
     justify-content: center;
     overflow-x: hidden;
     margin-bottom: 4vw;
+    /* border: 2px solid white; */
 }
 
 .imgContainer {
@@ -90,6 +91,7 @@ h1 {
     margin: 0 3vw 0 3vw;
     overflow: hidden;
     width: 40vw;
+    /* border: 2px solid white; */
     clip-path: circle(15vw);
 }
 
@@ -100,7 +102,14 @@ h1 {
     transform: translateX(-50%);
     left: 50%;
 }
-
+#eugeneHong {
+    position: relative;
+    /* left: 0; */
+    top: 0;
+    /* transform: translateY(-1000%); */
+    /* transform: scale(.7); */
+    border: 2px solid white;
+}
 .info {
     margin-top: -15vw;
     width: 100%;
@@ -131,3 +140,4 @@ h1 {
     color: #05386B;
     font-family: 'Inconsolata', monospace;
 }
+
