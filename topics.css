@@ -11,7 +11,48 @@
 body {
     background-color: #5CDB95;
 }
-
+#invisPlaceholder{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    margin-top: -4.45vh;
+}
+.bar {
+    position: absolute;
+    width: 1vw;
+    height: 90vh;
+    background-color: black;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%,-50%);
+}
+.rebtn{
+    position: absolute;
+    text-align: center;
+    font-size: 2vw;
+    width: 10vw;
+    height: 5vh;
+    background-color: #5CDB95;
+    left: 50vw;
+    top: 95vh;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    border: 2px solid black;
+}
+.contentBox{
+    border: 2px solid black;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+h3{
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p {
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.9vh;
+}
 #nav {
     position: relative;
     margin-top: 2vw;
@@ -69,6 +110,7 @@ body {
     left: 0;
     width: 100vw;
     height: calc(100vh - 4vw);
+    /* border: 2px solid black; */
 }
 
 #btnHolder {
@@ -154,6 +196,21 @@ h1 {
     font-size: 9vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
+h2 {
+    margin-top: 1vw;
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h4 {
+    margin-top: 2vw;
+    text-decoration: underline;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 .btn {
     border: .2vw solid black;
@@ -171,6 +228,7 @@ h1 {
     /* border: 2px solid black; */
     position: relative;
     /* top: -3vw; */
+    /* margin-top: -.5vh; */
     width: 100vw;
     height: auto;
 }
@@ -181,6 +239,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 #Topic_2 {
@@ -189,6 +248,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 #Topic_3 {
@@ -197,6 +257,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 #Topic_4 {
@@ -205,6 +266,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 #Topic_5 {
@@ -213,4 +275,77 @@ h1 {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
+}
+#leftContainer {
+    width: 50vw;
+    height: 90vh;
+    /* border: 2px solid black; */
+}
+#transBox{
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#rightContainer {
+    width: 50vw;
+    height: inherit;
+    /* border: 2px solid black; */
+}
+#challenges {
+    width: inherit;
+    height: 35vh;
+    /* border: 2px solid blue; */
+}
+#furtherExploration {
+    width: inherit;
+    height: 55vh;
+    /* border: 2px solid blue; */
+}
+ul {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+ol{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+li {
+    color: black;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+#directions {
+    text-align: center;
+}
+#smallerList {
+    font-size: 1vw;
+}
+#specialOL{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#transitionBox {
+    margin: 1vw;
+    width: 10vh;
+    height: 10vh;
+    background-color: black;
+}
+#transitionBox1 {
+    margin: 1vw;
+    width: 10vh;
+    height: 10vh;
+    background-color: black;
+    transition-property: width;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+#transitionBox:hover {
+    width: 42vw;
+}
+#transitionBox1:hover {
+    width: 42vw;
+}
+#flexpic {
+    height: 10vh;
 }
