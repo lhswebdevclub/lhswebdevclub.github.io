@@ -10,8 +10,9 @@
 </head>
 
 <body>
+    <div id="invisPlaceholder"></div>
     <div id="nav">
-        <a class="link" href="">About</a>
+        <a class="link" href="about.html">About</a>
         <a class="link" href="topics.html">Topics</a>
         <a class="link" href="contact.html">Contact</a>
     </div>
@@ -33,46 +34,239 @@
                 <p class="desc">CSS Intro</p>
                 <p class="desc">CSS External Style</p>
                 <p class="desc">CSS Transitions</p>
-                <p class="desc">Placeholder</p>
+                <p class="desc">Making the Website!</p>
             </div>
         </div>
 
     </div>
     <div id="Topics">
         <div id="Topic_1">
-            <div id="leftContainer"></div>
-            <div id="rightContainer">
-                <div id="challenges"></div>
-                <div id="furtherExploration"></div>
+            <div class="bar"></div>
+            <div id="leftContainer">
+                <h2>HTML</h2>
+                <div class="contentBox">
+                    <h3>General Syntax</h3>
+                    <p>HTML is the template upon which CSS builds upon. Therefore, it is responsible for setting up boundries and divisions within the website as a whole. HTML statements have notable angular brackets around all lines of code, most of which having open-close brackets [ For instance: p and /p ], though there are certain exceptions [ For instance: img does not have /img ]</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>HTML Document Structure</h3>
+                    <p>The basic structure of an HTML document is split into a head and body within the overall "html" document. It is important to note that there are other more specialized means of dividing up the "html" document -- like "footer" and "section" -- however these are unecessary and as you'll come to see, sometimes less efficient than other methods. In the head, exists many of the descriptions of the documents itself, including establishing variable viewports (adjustment of website to different devices) and "charset" which defines the form of encoding in the document, being "UTF-8" for all intensive purposes. Linking external CSS files to the HTML document also occurs in the head.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Commonly Used Tags in HTML</h3>
+                    <p>In HTML programming there are certain tags that you will use very often, here are some of them listed below: </p>
+                    <ol class="specialOL">
+                        <li id="smallerList">p and /p: Can be formatted to be any size, color, and font. Can technically be used for headers and any form of text, though h1, h2, etc. are more specialized if necessary.</li>
+                        <li id="smallerList">img: used to set images as backgrounds, or just place images in the website</li>
+                        <li id="smallerList">div: blank canvas that can be modified to accomodate many different things.    </li>
+
+                    </ol>
+                </div>
             </div>
+            <div id="rightContainer">
+                <div id="challenges">
+                    <h4>Challenges</h4>
+                    <p id="directions">Try these out if you are confident:</p>
+                    <ul>
+                        <li>Make a bullet list of images</li>
+                        <li>Create a link to another html file</li>
+                    </ul>
+                </div>
+                <div id="furtherExploration ">
+                    <h4>Further Exploration</h4>
+                    <p id="directions">If you want, feel free to look into some of the following topics:</p>
+                    <ul>
+                        <li>Difference between Elements, Tags, and Attributes</li>
+                        <li>Using Classes vs Using ID's</li>
+                        <li>Linking elements to url's</li>
+                    </ul>
+                </div>
+            </div>
+        <a class="rebtn" href="#invisPlaceholder">Return</a>
         </div>
         <div id="Topic_2">
-            <div id="leftContainer"></div>
-            <div id="rightContainer">
-                <div id="challenges"></div>
-                <div id="furtherExploration"></div>
+            <div class="bar"></div>
+            <div id="leftContainer">
+                <h2>Introduction to CSS</h2>
+                <div class="contentBox">
+                    <h3>General Syntax</h3>
+                    <p>CSS is responsible for the modification of different elements within the html file it is linked to. There are also inline and same-document based CSS, however they are not prefered as they clog up the html doc and make it confusing to both edit but also interpret. Within the CSS doc, you can reference general elements like "p" or "h1", but also specified classes and ID's. Classes and ID's have a period and hastag in front of them, respectively; for instance a class "container" would be referenced as ".container" and "#container" as an ID.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>What can you do with CSS?</h3>
+                    <p>Through CSS, a Web Developer can modify text-fonts, alignments, color, positioning, borders, transitions, text wrapping, shapes, z-indeces. Web Developers are able to utilize hover effects, create buttons, and link images. The possibilities are endless.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Basic CSS Structure</h3>
+                    <div class="imageContainer">
+                        <img src="exampleClass.png" alt="exampleClass">
+                        <img src="exampleID.png" alt="exampleID">
+                        <img src="exampleStandard.png" alt="exampleStandard">
+                        <p>Above are examples of how to structure a basic CSS "chunk" or "section". As you can see, they are split up into different elements, classes or ID's. The denotation of a class, is shown on he far left, with a period in front of it. The denotation of an ID is shown in the middle, with a hashtag. The denotation of a general element (in this case h1) is shown on the far right.</p>
+                    </div>
+                    <p></p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Customizing Div's</h3>
+                    <p>Div's are one of the most important aspects of HTML. They are essentially a blank canvas, meaning they can be used for many things. Through modifying their width, height, border-radius, position, coloring, etc. you can use them as invisible sensors, dividers, and classifying elements.</p>
+                </div>
             </div>
+            <div id="rightContainer">
+                <div id="challenges">
+                    <h4>Challenges</h4>
+                    <p id="directions">Try these out if you are confident:</p>
+                    <ul>
+                        <li>Make a filled in circular div</li>
+                        <li>Horizontally center a paragraph of text</li>
+                    </ul>
+                </div>
+                <div id="furtherExploration ">
+                    <h4>Further Exploration</h4>
+                    <p id="directions">If you want, feel free to look into some of the following topics:</p>
+                    <ul>
+                        <li>Other forms of sizing: em, px, percentages</li>
+                        <li>n-th Child selectors</li>
+                        <li>Z-indeces</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="rebtn" href="#invisPlaceholder">Return</a>
         </div>
         <div id="Topic_3">
-            <div id="leftContainer"></div>
-            <div id="rightContainer">
-                <div id="challenges"></div>
-                <div id="furtherExploration"></div>
+            <div class="bar"></div>
+            <div id="leftContainer">
+                <h2>CSS External Styling</h2>
+                <div class="contentBox">
+                    <h3>What is external styling</h3>
+                    <p>It's just as it sounds, styling the HTML document using CSS, through an external CSS file. This does, however require linking, in Vscode, simply typing "link" and tabbing will give you want you need.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Positioning</h3>
+                    <p>Positioning is very important in CSS, allowing you to move elements around the screen and determine whether or not certain elements "stack" or are independent. All elements are initialized as static within the document, but most commonly used is "relative" and "absolute" positioning. Relative positioning means that an element will appear in the order in which it is created within the HTML document. This is responsible for the "stacking" quality of elements, such that moving one at the "top" would push all the other relatively positioned elements downward. Absolute positioning is a bit more specialized, meaning the element is completely independent of the rest of the document. For instance, 10 identical div elements, all being absolutely positioned, would initalize all on top of each other, in the top left corner of the document.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Flexboxes</h3>
+                    <img src="flexexample.png" id="flexpic">
+                    <p>Flex boxes are extremely useful in styling your HTML document. In essence, they are a sort of "malleable" box that allows for far more freedom and control than standard div's. The basic flexbox, created through defining an element (usually a div) as "display: flex" makes it such that elements (relatively positioned) stack upon eachother horizontally -- as opposed to vertically like it normally does. Special functions within the Flex box styling like "align-items: center" can help make the Flex box more effective in many cases; especially when it comes to a container of many similar elements, like in a navigation bar.</p>
+                </div>
             </div>
+            <div id="rightContainer">
+                <div id="challenges">
+                    <h4>Challenges</h4>
+                    <p id="directions">Try these out if you are confident:</p>
+                    <ul>
+                        <li>Link an external style sheet to an html file</li>
+                        <li>Create a navigation bar at the top of a page using flex boxes</li>
+                    </ul>
+                </div>
+                <div id="furtherExploration ">
+                    <h4>Further Exploration</h4>
+                    <p id="directions">If you want, feel free to look into some of the following topics:</p>
+                    <ul>
+                        <li>Other flexbox functions</li>
+                        <li>Max-width, border-box sizing</li>
+                        <li>Absolute vs Relative vs Static vs Fixed positioning</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="rebtn" href="#invisPlaceholder">Return</a>
         </div>
         <div id="Topic_4">
-            <div id="leftContainer"></div>
-            <div id="rightContainer">
-                <div id="challenges"></div>
-                <div id="furtherExploration"></div>
+            <div class="bar"></div>
+            <div id="leftContainer">
+                <h2>CSS Transitions</h2>
+                <div class="contentBox">
+                    <h3>What are they?</h3>
+                    <p>CSS transitions are a family of css properties that support simple responsiveness without Javascript. Anything from hovering over buttons or load-up animations can be written with css transitions. </p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>General Syntax</h3>
+                    <p>The barebones for a functional transition requires a property to “animate” (i.e. ‘height’, ‘width’, ‘background-color’, etc…) and the duration of the animation (in seconds) which are specified with the transition-property and transition-duration properties respectively. Additionally, programmers can specify a transition-delay or transition-timing-function. The timing-function indicates how the progression of the transition should change. Ease-in specifies a slow start and fast finish while ease-out specifies a fast start and slow finish. With just these four properties, an extensive array of responsiveness becomes available to those well-versed in css transitions. 
+                    </p>
+                </div>
+                <br>
+                <div class="contentBox" id="transBox">
+                    <h3>    Try these out!</h3>
+                    <p>With only a :hover effect and no transitions:</p>
+                    <div id="transitionBox"></div>
+                    <p>     With transitions:</p>
+                    <div id="transitionBox1"></div>
+                </div>
+
             </div>
+            <div id="rightContainer">
+                <div id="challenges">
+                    <h4>Challenges</h4>
+                    <p id="directions">Try these out if you are confident:</p>
+                    <ul>
+                        <li>Write CSS so when the user hovers over a circle, a square changes color and shape</li>
+                        <li>Have a div change colors twice when hovered over</li>
+                    </ul>
+                </div>
+                <div id="furtherExploration ">
+                    <h4>Further Exploration</h4>
+                    <p id="directions">If you want, feel free to look into some of the following topics:</p>
+                    <ul>
+                        <li>Varying Transition Delays</li>
+                        <li>Different Navigation Menu's</li>
+                        <li>CSS Animations (Similar to transitions but can actually move the elements themselves as opposed to changing properties)</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="rebtn" href="#invisPlaceholder">Return</a>
         </div>
         <div id="Topic_5">
-            <div id="leftContainer"></div>
-            <div id="rightContainer">
-                <div id="challenges"></div>
-                <div id="furtherExploration"></div>
+            <div class="bar"></div>
+            <div id="leftContainer">
+                <h2>Making a Website</h2>
+                <div class="contentBox">
+                    <h3>Bringing it all together!</h3>
+                    <p>Ok, so now, you are well informed on all the bits of information that come into building a website: constructing the html document, linking the css document, and editing different elements within the html documents. Now is the most important part, often times the most difficult, bringing everything together into an aesthetic and cohesive website.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>What to do first?</h3>
+                    <p>Planning out the website is crucial to a successful one. As such, before you even bring up your HTML/CSS editor, get a pen and paper or perhaps marker and whiteboard and draw out the website's structure. Write out ideas about how you would make use of different elements like flexboxes and div's to structure navbars or images that you have in mind for the website. Alternatively you can make use of website prototyping software online, including figma.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>Creating the HTML Document</h3>
+                    <p>With your prototype drawn, and planning done, then you are ready to move on to the actual web development portion. Something that begins with creating the HTML document. As you are creating your document, make thorough use of div's to section different portions of a website off. A good plan makes this stage quite easy. Try as hard as you can to generalize different sections of your website. If there's an element that repeats throughout the site, make sure you use classes to apply the same CSS formatting to each. ID's should be used sparingly, and only for specified elements because too many different ID's can make for difficulty troubleshooting.</p>
+                </div>
+                <br>
+                <div class="contentBox">
+                    <h3>The CSS</h3>
+                    <p>Create an external document for CSS, and don't forget to correctly link the CSS document to the HTML document. Make sure you are using proper positioning. Otherwise, a well structured HTML doc will make this far easier.</p>
+                </div>
             </div>
+            <div id="rightContainer">
+                <div id="challenges">
+                    <h4>Challenges</h4>
+                    <p id="directions">Try these out if you are confident:</p>
+                    <ul>
+                        <li>Try and replicate an online website that you like</li>
+                        <li>Try and make your own full website</li>
+                    </ul>
+                </div>
+                <div id="furtherExploration ">
+                    <h4>Further Exploration</h4>
+                    <p id="directions">If you want, feel free to look into some of the following topics:</p>
+                    <ul>
+                        <li>Aesthetic web designs</li>
+                        <li>Utilizing white/negative space</li>
+                        <li>Obtaining high quality pictures for website</li>
+                    </ul>
+                </div>  
+            </div>
+            <a class="rebtn" href="#invisPlaceholder">Return</a>
         </div>
     </div>
 </body>
